@@ -30,7 +30,7 @@ jobs:
     steps:
       - id: RemoveContainers
         name: Remove Containers
-        uses: OleWunschmann/Alpaca-Actions/Actions/RemoveContainers@v1.2
+        uses: OleWunschmann/Alpaca-Actions/Actions/RemoveContainers@staging/main
         with:
           shell: pwsh
           token: ${{ secrets.GITHUB_TOKEN }}
