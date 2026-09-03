@@ -44,7 +44,7 @@ jobs:
 
       - name: Determine Configs To Sync
         id: DetermineConfigsToSync
-        uses: OleWunschmann/Alpaca-Actions/Actions/DetermineConfigsToSync@v1.2
+        uses: OleWunschmann/Alpaca-Actions/Actions/DetermineConfigsToSync@v1.1
         with:
           shell: pwsh
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -63,7 +63,7 @@ jobs:
 
       - id: SyncConfigs
         name: Sync Configs
-        uses: OleWunschmann/Alpaca-Actions/Actions/SyncConfigs@v1.2
+        uses: OleWunschmann/Alpaca-Actions/Actions/SyncConfigs@v1.1
         with:
           shell: pwsh
           token: ${{ secrets.GITHUB_TOKEN }}
