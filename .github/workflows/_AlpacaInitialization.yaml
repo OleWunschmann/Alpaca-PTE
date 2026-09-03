@@ -39,7 +39,7 @@ jobs:
     steps:
       - id: Initialization
         name: Initialization
-        uses: OleWunschmann/Alpaca-Actions/Actions/Initialization@v1.2
+        uses: OleWunschmann/Alpaca-Actions/Actions/Initialization@preview
         with:
           shell: pwsh
 
